@@ -3,14 +3,14 @@ var element=document.getElementById('main-text');
 element.innerHTML='New value';
 
 var img=document.getElementById('madi');
-var marginRight=0;
-function moveLeft()
+var marginLeft=0;
+function moveRight()
 {
-    marginRight=marginRight+1;
-    img.style.marginRight=marginRight+'px';
+    marginLeft=marginLeft+1;
+    img.style.marginLeft=marginLeft+'px';
 }
 img.onclick=function()
 {
-    var interval=setInterval(moveLeft,'50');
+    var interval=setInterval(moveRight,'50');
    
 };
