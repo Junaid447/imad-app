@@ -3,7 +3,8 @@ var element=document.getElementById('main-text');
 element.innerHTML='New value';
 
 var img=document.getElementById('madi');
-function moveLeft()
+marginRight=0;
+function moveRight()
 {
     marginRight=marginRight+1;
     img.style.marginRight=marginRight+'px';
